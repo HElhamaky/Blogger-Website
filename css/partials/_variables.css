@@ -1,0 +1,14 @@
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/*CSS Variables*/
+:root{
+    --primary-color: #4458dc;
+    
+
+    /*font family variables*/
+    
+}
