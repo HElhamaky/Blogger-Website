@@ -1,0 +1,10 @@
+/*if the viewport is equal to 750px or less than that*/
+@media only screen and (max-width:750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction:column;
+    }
+
+    .nav .toggle-collapse{
+        display: initial;
+    }
+}
