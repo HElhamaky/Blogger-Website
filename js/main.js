@@ -7,4 +7,7 @@ $(document).ready(function(){
     $toggleCollapse.click(function(){
         $nav.toggleClass('collapse');
     })
+
+    /* OWl Carousel for Blog*/
+    //$('owl-carousel').owlCarousel();
 })
