@@ -101,6 +101,7 @@ main .site-title{
     height: 110vh;
     display: flex;
     justify-content: center;
+    padding-bottom: 3rem;
 
 }
 
@@ -115,9 +116,9 @@ main .site-title h1,h3{
 }
 
 
-main.site-title.btn{
+main .site-title .btn{
     margin:1.8rem;
-    background-color: black;
+    background:var(--sky);
 }
 
 main .site-title .btn:hover{
@@ -137,13 +138,13 @@ main .blog{
 }
 
 main .blog .blog-post{
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 main .blog-post .blog-content{
      display: flex;
      flex-direction: column;
      text-align: center;
-     width: 30%;
+     width: 80%;
      margin: 3rem 2rem;
      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
  }
@@ -158,8 +159,30 @@ main .blog-post .blog-content{
  }
  main .blog-content .btn-blog{
      padding: .7rem 2rem;
-     background: var(--midnight);
+     background: var(--sky);
      margin: .5rem;
  }
 
+ main .blog-content span{
+     display: block;
+ }
+
+ section .container .owl-nav{
+     position: absolute;
+     top:0%;
+     margin: 0 auto;
+     width: 100%;
+ }
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: var(--text-gray);
+    background: transparent;
+    font-style: 2rem;
+}
+
+.owl-theme .owl-nav[class*='owl-']:hover{
+    background: transparent;
+    color: var(--midnight);
+}
 /*End Main Section*/

@@ -16,7 +16,7 @@ html,body{
     --midnight:#104f55;
 
     /*Gradient Color*/
-    --sky:liner-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --sky:linear-gradient(90deg, rgba(161,196,253,1) 0%, rgba(194,233,251,1) 100%);
 
     /*font family variables*/
     --Abel:'Abel',cursive;

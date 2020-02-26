@@ -22,6 +22,10 @@ h3{
     font-size: 1.3rem;
 }
 
+span{
+    font-family: var(--Abel);
+}
+
 button.btn{
     border: none;
     border-radius: 2rem;
